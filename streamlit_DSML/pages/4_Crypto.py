@@ -32,6 +32,7 @@ API_URL = build_url(COINS)
 # Tiny sample to keep the demo working even if the API is rate-limiting
 SAMPLE_DF = pd.DataFrame(
     [{"coin": "bitcoin", VS: 68000}, {"coin": "ethereum", VS: 3500}]
+)
 
 # PART 3 - CACHE
   
